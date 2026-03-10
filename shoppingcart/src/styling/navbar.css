@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #1e293b;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    
+}
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #3b82f6;
+    text-decoration: underline;
+}
+a:active{
+    color:green;
+    text-decoration: underline;
+}

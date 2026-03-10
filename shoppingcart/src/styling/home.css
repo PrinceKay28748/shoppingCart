@@ -1,0 +1,26 @@
+.welcome {
+  display: inline-block;
+  opacity: 0;
+  
+  transform: translateY(20px); /* Starts slightly lower */
+  
+  /* Apply the animation */
+  animation: reveal 0.9s forwards;
+  
+  /* Stagger: Multiplies the word number by 0.2 seconds */
+  animation-delay: calc(var(--i) * 0.2s);
+}
+
+@keyframes reveal {
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Slides up to its original spot */
+  }
+}
+
+
+.homepage {
+    text-align: center;
+    padding: 50px;
+    
+}
